@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <script src="./assets/js/app.js"></script>
+    <title>Trello</title>
+</head>
+<body>
+
+    <div id="app"></div>
+
+    <div class="card">
+        <div class="card--header">
+            <span class="card--span card--span--tech">tech</span>
+            <span class="card--span card--span--urgent">urgent</span>
+        </div>
+            <h2 class="card--title">Première carte</h2>
+        <div class="card--body">
+            <p class="card--task card--task--done">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div class="card--footer">
+            <button class="btn btn-edit">Modifier</button>
+            <button class="btn btn-delete">Supprimer</button>
+            <label for="done-checkbox" class="card--task--label">
+                <input type="checkbox" class="card--task--checkbox" name="done" id="1" checked />
+                Done
+            </label>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card--header">
+            <span class="card--span card--span--tech">tech</span>
+            <span class="card--span card--span--urgent">urgent</span>
+        </div>
+            <h2 class="card--title">Première carte</h2>
+        <div class="card--body">
+            <p class="card--task card--task--undone">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div class="card--footer">
+            <button class="btn btn-edit">Modifier</button>
+            <button class="btn btn-delete">Supprimer</button>
+            <label for="done-checkbox" class="card--task--label">
+                <input type="checkbox" class="card--task--checkbox" name="done" id="2" />
+                Done
+            </label>
+        </div>
+    </div>
+    
+</body>
+</html>
